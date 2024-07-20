@@ -1,0 +1,557 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&display=swap');   
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:white;
+}
+
+.sec-1 {
+    width: 1440px;
+    height: 825px;
+    background-color: rgb(85, 80, 80);
+    background-image: url(images/bg.png);
+}
+
+.sec-1 .navbar {
+    width: 1440px;
+    height: 143px;
+    float: left;
+}
+
+.navbar .logo {
+    width: 904px;
+    height: 143px;
+    float: left;
+    padding: 57px 0px 0px 57px;
+}
+
+.navbar .menubar {
+    width: 532px;
+    height: 143px;
+    float: left;
+    padding-top: 50px;
+}
+
+.menubar .scooter {
+    width: 532px;
+    height: 41px;
+    float: left;
+    font-weight: bold;
+    color: #573b1f;
+    font-size: 21px;
+}
+
+.scooter img {
+    margin-right: 20px;
+}
+
+.menubar .menu {
+    width: 532px;
+    height: 51px;
+    float: left;
+    padding-top: 10px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 22px;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 10px;
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: #573b1f;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: aliceblue;
+    transition: 0.5s;
+}
+
+.sec-1 .txtleft {
+    width: 632px;
+    height: 682px;
+    float: left;
+    padding-left: 60px;
+    padding-top: 143px;
+}
+
+.txtleft .burger {
+    width: 430px;
+    height: 50px;
+    border: dashed 2px #573b1f;
+    color: #573b1f; 
+    padding-top: 10px; 
+}
+
+.txtleft .week {
+    width: 554px;
+    height: 190px;
+    font-size: 80px;
+    color: #573b1f;
+    margin-left: 75px;  
+    font-family: "Alfa Slab One", serif;
+}
+
+.sec-1 .imgright {
+    width: 808px;
+    height: 682px;
+    float: left;
+}
+
+.imgright .meal {
+    width: 676px;
+    height: 592px;
+    float: left;
+    border: solid 2px black ;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.308);
+}
+
+
+
+/* section-2 */
+
+
+
+
+.sec-2 {
+    width: 1440px;
+    height: 1425px;
+    background-color: white;
+}
+
+.sec-2 .img {
+    width: 1356px;
+    height: 531px;
+    float: left;
+    margin-left: 8px;
+    margin-top: 27px;
+    padding: 52px 0px 0px 83px;
+}
+
+.img .img1 {
+    width: 598px;
+    height: 421px;
+    float: left;
+    background-image: url(images/img1.png);
+}
+
+.img1 .try {
+    width: 422px;
+    height: 105px;
+    float: left;
+    color: white;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+.img .img2 {
+    width: 598px;
+    height: 194px;
+    float: left;
+    margin-left: 42px;
+    background-image: url(images/img2.png);
+}
+
+.img2 .it {
+    width: 270px;
+    height: 134px;
+    float: left;
+    color: white;
+    padding-top: 20px;
+    padding-left: 10px;
+
+}
+
+.img .img3 {
+    width: 598px;
+    height: 192px;
+    float: left;
+    margin-left: 42px;
+    margin-top: 36px;
+    background-image: url(images/img3.png);
+}
+
+.img3 .today {
+    width: 260px;
+    height: 104px;
+    float: left;
+    color: white;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.sec-2 .choices {
+    width: 1356px;
+    height: 865px;
+    float: left;
+    margin-left: 8px;
+}
+
+.choices .minibox {
+    width: 219px;
+    height: 44px;
+    float: left;
+    margin-left: 594px;
+    margin-top: 16px;
+    color: #573b1f;
+    background-color: #ffc045;
+    padding-left: 10px;
+    padding-top: 15px;
+    text-align: center;
+
+}
+
+.choices .choose {
+    width: 1066px;
+    height: 136px;
+    float: left;
+    margin-left: 163px;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.choose h1 {
+    color: #573b1f;
+}
+
+.sec-2 .box {
+    width: 410px;
+    height: 579px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.box .imga {
+    width: 410px;
+    height: 372px;
+    float: left;
+    padding-top: 45px;
+}
+
+.box .lp {
+    width: 410px;
+    height: 121px;
+    float: left;
+    text-align: center;
+
+}
+.lp h2{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+}
+.box .order {
+    width: 410px;
+    height: 88px;
+    float: left;
+    padding-left: 75px;
+    padding-top: 10px;
+    margin-left: 40px
+}
+
+.order button {
+    width: 197px;
+    height: 60px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    outline: none;
+    border: none;
+}
+
+/* section-3 */
+
+
+.sec-3 {
+    width: 1440px;
+    height: 1335px;
+    background-color: white;
+}
+
+.sec-3 .events {
+    width: 1356px;
+    height: 639px;
+    float: left;
+    margin-left: 27px;
+}
+
+.events .discover {
+    width: 546px;
+    height: 443px;
+    float: left;
+    margin-top: 125px;
+    margin-left: 83px;
+    font-size: 25px;
+    color: #b1b1b1;
+    text-align: center;
+    border: solid 2px black;
+
+}
+
+.discover .upcoming {
+    width: 546px;
+    height: 118px;
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 24px;
+    color: #3d2514;
+}
+
+.events .imgb {
+    width: 710px;
+    height: 443px;
+    float: left;
+    margin-top: 125px;
+    padding-left: 20px;
+}
+
+.sec-3 .box1 {
+    width: 1400px;
+    height: 679px;
+    float: left;
+    background-image: url(images/bottle.png), url(images/burger.png), url(images/plate.png);
+    background-repeat: no-repeat;
+    background-position: 90px 280px, 0px -10px, 1084px 220px;
+}
+
+.box1 .reservation {
+    width: 1022px;
+    height: 550px;
+    float: left;
+    margin-top: 75px;
+    margin-left: 83px;
+}
+
+.reservation .book {
+    width: 611px;
+    height: 130px;
+    float: left;
+    margin-top: 75px;
+    margin-left: 310px;
+    font-size: 25px;
+    text-align: center;
+    color: #3d2514;
+}
+
+.reservation .box2 {
+    width: 824px;
+    height: 345px;
+    float: left;
+    margin-left: 198px;
+
+}
+
+.box2 .name {
+    width: 390px;
+    height: 66px;
+    float: left;
+    margin-top: 57px;
+    margin-left: 22px;
+}
+
+.name input {
+    width: 390px;
+    height: 66px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.box2 .email {
+    width: 390px;
+    height: 66px;
+    float: left;
+    margin-top: 57px;
+    margin-left: 10px;
+}
+
+.email input {
+    width: 390px;
+    height: 66px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.box2 .date {
+    width: 390px;
+    height: 66px;
+    float: left;
+    margin-left: 22px;
+    margin-top: 29px;
+}
+
+.date input {
+    width: 390px;
+    height: 66px;
+    font-size: 20px;
+    padding-left: 10px;
+
+}
+
+.box2 .time {
+    width: 390px;
+    height: 66px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 29px;
+}
+
+.time input {
+    width: 390px;
+    height: 66px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.box2 .people {
+    width: 390px;
+    height: 66px;
+    float: left;
+    margin-left: 22px;
+    margin-top: 29px;
+}
+
+.people select {
+    width: 390px;
+    height: 66px;
+    float: left;
+    font-size: 20px;
+}
+
+.box2 .find {
+    width: 390px;
+    height: 66px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 29px;
+}
+
+.find button {
+    width: 390px;
+    height: 66px;
+    font-size: 20px;
+    background-color: #bf2222;
+    color: white;
+    border: none;
+    outline: none;
+}
+.find button:hover{
+    background-color: rgb(94, 34, 34);
+    transition: 0.5s;
+}
+
+/* section-4 */
+
+
+.sec-4 {
+    width: 1440px;
+    height: 526px;
+    background-color: white;
+}
+
+.sec-4 .footer {
+    width: 1325px;
+    height: 525px;
+    float: left;
+    margin-left: 57px;
+    background-image: url(images/bgimage.png);
+}
+
+.footer .box3 {
+    width: 472px;
+    height: 525px;
+    float: left;
+}
+
+.box3 .bl {
+    width: 472px;
+    height: 185px;
+    float: left;
+    padding-top: 80px;
+    padding-left: 25px;
+
+}
+
+.box3 .cont {
+    width: 567px;
+    height: 140px;
+    float: left;
+    color: white;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+.box3 .tm {
+    width: 472px;
+    height: 202px;
+    float: left;
+    color: white;
+    padding-top: 170px;
+    padding-left: 25px;
+}
+
+.footer .box4 {
+    width: 431px;
+    height: 525px;
+    float: left;
+    margin-left: 400px;
+    padding-top: 185px;
+}
+
+.footer .address {
+    width: 431px;
+    height: 140px;
+    float: left;
+    padding-top: 44px;
+}
+
+.address .location {
+    width: 321px;
+    height: 47px;
+    float: left;
+    color: white;
+    font-size: 12px;
+}
+
+.location img {
+    margin-right: 20px;
+}
+
+.address .mail {
+    width: 321px;
+    height: 51px;
+    float: left;
+    color: white;
+    font-size: 12px;
+}
+
+.mail img {
+    margin-right: 20px;
+}
+
+.footer .icons {
+    width: 431px;
+    height: 202px;
+    float: left;
+    padding-top: 145px;
+    padding-left: 260px;
+}
+html{
+    scroll-behavior: smooth;
+}
